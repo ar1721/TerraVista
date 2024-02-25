@@ -1,0 +1,2 @@
+# BrickHacks
+RIT hackathon
