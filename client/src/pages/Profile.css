@@ -1,0 +1,26 @@
+.hikes-completed {
+    display: flex;
+    overflow-x: hidden;
+    gap: 10px;
+}
+
+.hike-item {
+    flex-shrink: 0;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.hike-item.active {
+    opacity: 1;
+}
+
+.hike-item img {
+    width: 150px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    object-fit: cover;
+}
+
+/* Optional: Add additional styling for captions */
+.hike-item p {
+    text-align: center;
+}

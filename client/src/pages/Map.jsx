@@ -14,12 +14,12 @@ import './map.css'
 // )
 
 const Map = ({ location, zoomLevel }) => (
-  <div className="map">
-    <h2 className="map-h2">Come Visit Us At Our Campus</h2>
+  <div>
+    <h2 className="map-h2"></h2>
 
     <div className="google-map">
       <GoogleMapReact
-        bootstrapURLKeys={{ key: 'AIzaSyCVktfma26_XZg376X_ksxB2cW20gwSwRE' }}
+        bootstrapURLKeys={{ key:'AIzaSyALXrpFH63j6axOoD_B_yM2HkfZw6WFNVo'}}
         defaultCenter={location}
         defaultZoom={zoomLevel}
       >
